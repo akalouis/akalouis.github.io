@@ -460,9 +460,9 @@ body {
 .post-content hr {
     border: none;
     height: 1px;
-    background: linear-gradient(90deg, transparent 0%, #ccc 30%, #888 50%, #ccc 70%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, #ccc 30%, #bbb 50%, #ccc 70%, transparent 100%);
     margin: 48px auto;
-    width: 140px;
+    width: 240px;
 }
 
 /* Mathematical formula styling */
