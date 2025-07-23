@@ -137,11 +137,13 @@ Wow, can you believe it? I am almost sure that if you are a game designer or hav
 
 So, what's the caveat?
 
-> Q. It works on one genre, right?
-> 
-> Q. It gives you the number but does not match perceived fun, right?
-> 
-> Q. It is not yet applicable in the field, right?
+```
+Q. It works on one genre, right?
+
+Q. It gives you the number but does not match perceived fun, right?
+
+Q. It is not yet applicable in the field, right?
+```
 
 Calm down! You stopped breathing for a while there!
 
