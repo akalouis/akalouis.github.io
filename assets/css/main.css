@@ -201,9 +201,9 @@ body {
     margin: 0;
 }
 
-/* Enhanced Medium-style post content - much softer */
+/* Enhanced Medium-style post content - proper font size */
 .post-content {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.01em;
     color: #41454a;
@@ -255,7 +255,7 @@ body {
     padding-left: 23px;
     margin: 32px 0;
     font-style: italic;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 1.48;
     letter-spacing: -0.014em;
     color: #8e8e8e;
@@ -299,7 +299,7 @@ body {
     padding: 3px 6px;
     border-radius: 3px;
     font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -329,7 +329,7 @@ body {
 
 .post-content li {
     margin: 8px 0;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     color: #41454a;
 }
@@ -407,7 +407,7 @@ body {
 
 /* Special quote styling for the opening quote */
 .post-content > blockquote:first-of-type {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.32;
     text-align: center;
     border: none;
