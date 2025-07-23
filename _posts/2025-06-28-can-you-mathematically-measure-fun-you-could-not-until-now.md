@@ -85,7 +85,6 @@ Now, suddenly the game is no longer engaging.
 
 Why? Because there will be zero meaningful events remaining.
 
-****
 ```
 [PENALTY-ONLY GAME]
 
