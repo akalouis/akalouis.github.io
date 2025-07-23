@@ -56,7 +56,7 @@ Now, let's solve this problem.
 
 ## The Theory of Anticipation
 
-Theory of Anticipation (ToA) is a recently born framework that enables objective evaluation of 'fun' in game designs.
+**Theory of Anticipation (ToA)** is a recently born framework that enables objective evaluation of 'fun' in game designs.
 
 Yes, this theory gives you a score number for your game design!
 
@@ -114,8 +114,6 @@ For technical details, check out the [GitHub repository](https://github.com/akal
 
 Here's what it does:
 
-**Those are 2 games with different game mechanics.**
-
 <p align="center">
   <img src="/assets/image/2025_07_23_experiment1.webp">
   <br>
@@ -127,7 +125,9 @@ Here's what it does:
   <em>Game B. Game Design Score: 0.544004</em>
 </p>
 
-You see, **Game B is 26.5% (0.43 → 0.544) superior to Game A, mathematically.**
+Those are 2 games with different game mechanics.
+
+You see, Game B is 26.5% (0.43 → 0.544) superior to Game A, mathematically.
 
 This is not an artificial example for understanding, but real experimental data, real game mechanics, and real results that ToA produced.
 
