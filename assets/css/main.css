@@ -375,7 +375,7 @@ body {
     margin-right: 4px;
 }
 
-/* Figure and image styling */
+/* Figure and image styling - Medium style */
 .post-content figure {
     margin: 40px 0;
     text-align: center;
@@ -389,11 +389,30 @@ body {
 }
 
 .post-content figcaption {
-    font-size: 16px;
-    color: #6B6B6B;
+    font-size: 14px;
+    color: #8e8e8e;
     text-align: center;
     margin-top: 12px;
     font-style: italic;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+/* HTML image captions - for <p align="center"> style */
+.post-content p[align="center"] {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.post-content p[align="center"] em {
+    display: block;
+    font-size: 14px;
+    color: #8e8e8e;
+    font-style: italic;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    margin-top: 12px;
+    line-height: 1.4;
 }
 
 /* Better spacing for sections */
