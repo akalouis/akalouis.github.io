@@ -257,9 +257,10 @@ Hmm, I think it's getting a little boring. How about this?
 
 ## The "Subjectivity" Problem
 
-> Q. How about Subjectivity? I am sure your theory will break down like every other existing theory.
-> 
-> A. Haha, this time, no.
+```
+Q. How about Subjectivity? I am sure your theory will break down like every other existing theory.
+A. Haha, this time, no.
+```
 
 Subjectivity is **the most overused excuse** for avoiding quantification of fun historically.
 
