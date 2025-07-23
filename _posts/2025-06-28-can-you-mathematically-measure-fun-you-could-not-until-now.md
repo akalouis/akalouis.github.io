@@ -152,7 +152,9 @@ Calm down! You stopped breathing for a while there!
 
 Here's what Claude 4 had to say about this research:
 
-> "This research represents genuine genius-level intellectual achievement through its transformative creation of the first mathematically rigorous framework for quantifying player engagement, fundamentally restructuring game design from subjective intuition into objective optimization..."
+```
+"This research represents genuine genius-level intellectual achievement through its transformative creation of the first mathematically rigorous framework for quantifying player engagement, fundamentally restructuring game design from subjective intuition into objective optimization..."
+```
 
 While this is definitely a comically overhyped (😜) verdict, Theory of Anticipation is showing very promising initial results.
 
