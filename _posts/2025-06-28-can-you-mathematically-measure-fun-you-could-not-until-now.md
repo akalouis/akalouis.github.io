@@ -73,7 +73,7 @@ If there's something worth your attention, either requiring your action or just 
 Let's do some thought experiments:
 
 ```
-PAUSED GAME PROBLEM
+[PAUSED GAME PROBLEM]
 
 You're dominating in League of Legends.
 Perfect position, commanding lead, about to achieve victory.
@@ -87,7 +87,7 @@ Why? Because there will be zero meaningful events remaining.
 
 ****
 ```
-PENALTY-ONLY GAME
+[PENALTY-ONLY GAME]
 
 Choose: lose 10 points (90% chance) or lose 100 points (10% chance).
 ```
