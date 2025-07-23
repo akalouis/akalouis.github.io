@@ -377,7 +377,7 @@ body {
 
 /* Figure and image styling - Medium style */
 .post-content figure {
-    margin: 40px 0;
+    margin: 32px 0;
     text-align: center;
 }
 
@@ -392,8 +392,8 @@ body {
     font-size: 14px;
     color: #8e8e8e;
     text-align: center;
-    margin-top: 12px;
-    font-style: italic;
+    margin-top: 8px;
+    font-style: normal;
     font-family: var(--font-secondary);
     font-weight: 400;
 }
@@ -401,7 +401,7 @@ body {
 /* HTML in markdown - more general selectors */
 .post-content p[align] {
     text-align: center !important;
-    margin: 40px 0 !important;
+    margin: 32px 0 !important;
 }
 
 .post-content p[align] img {
@@ -416,10 +416,10 @@ body {
     display: block !important;
     font-size: 14px !important;
     color: #8e8e8e !important;
-    font-style: italic !important;
+    font-style: normal !important;
     font-family: var(--font-secondary) !important;
     font-weight: 400 !important;
-    margin-top: 12px !important;
+    margin-top: 8px !important;
     margin-bottom: 0 !important;
     line-height: 1.4 !important;
 }
@@ -429,7 +429,8 @@ body {
     font-size: 14px !important;
     color: #8e8e8e !important;
     font-family: var(--font-secondary) !important;
-    margin-top: 12px !important;
+    font-style: normal !important;
+    margin-top: 8px !important;
 }
 
 /* Better spacing for sections */
