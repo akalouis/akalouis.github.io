@@ -1,6 +1,6 @@
 title: Theory of Anticipation
 description: A mathematical framework for quantifying engagement. Also a first engineering tool for game design.
-baseurl: "/"
+baseurl: ""
 url: "https://akalouis.github.io"
 markdown: kramdown
 plugins:
