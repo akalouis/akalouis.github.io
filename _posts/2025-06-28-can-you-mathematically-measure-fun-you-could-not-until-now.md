@@ -72,7 +72,7 @@ If there's something worth your attention, either requiring your action or just 
 
 Let's do some thought experiments:
 
-**_PAUSED GAME PROBLEM_**
+**PAUSED GAME PROBLEM**
 
 You're dominating in League of Legends — perfect position, commanding lead, about to achieve victory. Then the game pauses, indefinitely.
 
@@ -80,7 +80,7 @@ Now, suddenly the game is no longer engaging.
 
 Why? Because there will be zero meaningful events remaining.
 
-**_PENALTY-ONLY GAME_**
+**PENALTY-ONLY GAME**
 
 Choose: lose 10 points (90% chance) or lose 100 points (10% chance).
 
@@ -114,12 +114,12 @@ Here's what it does:
 **Those are 2 games with different game mechanics.**
 
 <p align="center">
-  <img src="../assets/image/2025_07_23_experiment1.webp" alt="Game B">
+  <img src="../assets/image/2025_07_23_experiment1.webp">
   <br>
-  <em>Game A. Game Design Score:0.430483</em>
+  <em>Game A. Game Design Score: 0.430483</em>
 </p>
 <p align="center">
-  <img src="../assets/image/2025_07_23_experiment2.webp" alt="Game B">
+  <img src="../assets/image/2025_07_23_experiment2.webp">
   <br>
   <em>Game B. Game Design Score: 0.544004</em>
 </p>
@@ -154,40 +154,64 @@ Let's unpack those 2 mechanics and have a closer look.
 
 ## The Two Benchmark Games
 
-**Game A** was actually named HpGame — a simple baseline game that models 1v1 fighting games like Street Fighter, King of Fighters, Tekken.
+**Game A** was actually named **HpGam**e — a simple baseline game that models 1v1 fighting games like Street Fighter, King of Fighters, Tekken.
 
-**Game B** is called HpGame_Rage. It's HpGame with additional novel game mechanics added to it.
+**Game B** is called **HpGame_Rage**. It's HpGame with additional novel game mechanics added to it.
 
-## HpGame:
-> 2 Players play with 5 HP each
-> Every turn, both players attack each other
-> If you reduce Player 2's HP to 0 while you are alive, you win
+### HpGame:
 
-## Rage/Crit system:
-- You gain Rage each time you take or give damage
-- Rage increases with the amount of damage taken or given
-- Rage never decreases (accumulates throughout the match)
-- On critical hit, you deal additional damage amplified by Rage
+```
+2 Players play with 5 HP each. Every turn, both players attack each other.
+If you reduce Player 2's HP to 0 while you are alive, you win
+```
 
-**The result is:**
+### Rage/Crit system:
+```
+You gain Rage each time you take or give damage
+Rage increases with the amount of damage taken or given
+Rage never decreases (accumulates throughout the match)
+On critical hit, you deal additional damage amplified by Rage
+```
+
+The result is:
+
+<p align="center">
+  <img src="../assets/image/2025_07_23_experiment3.webp">
+  <br>
+  <em>HpGame. Sorted. Most engaging moments come first.</em>
+</p>
+
+<p align="center">
+  <img src="../assets/image/2025_07_23_experiment4.webp">
+  <br>
+  <em>HpGame_Rage. Sorted. Most engaging moments come first.</em>
+</p>
 
 When you run this program, it computes precise values of fun (anticipation 1–5) for all possible game states.
 
 To help generate design insights, the program sorts these moments by engagement.
 
+A full state-by-state analysis can be boring to read through here, so the details are in the [Paper](https://doi.org/10.5281/zenodo.15826917).
+
 > Q. Oh, this actually computes the anticipation of all game states?
 
-**Yes!** And when we summarize the anticipation for all states combined, we get the **Game Design Score**. Makes sense, doesn't it?
+**Yes!** And when we summarize the anticipation for all states combined, we get the Game Design Score Makes sense, doesn't it?
 
 This way of viewing a game design reveals fascinating insights.
 
-For example, did you know you get more engaged when the match is slightly unbalanced?
+For example, did you know you get more engaged when the match is **slightly unbalanced**?
 
-For more exciting details, visit the [GitHub repository](https://github.com/akalouis/anticipation-theory) and [academic paper](https://github.com/akalouis/anticipation-theory/blob/main/LaTeX/theory_of_anticipation_academic_publication_version.pdf).
+For more exciting details, I recommend visiting [GitHub](https://github.com/akalouis/anticipation-theory) and [Paper](https://github.com/akalouis/anticipation-theory/blob/main/LaTeX/theory_of_anticipation_academic_publication_version.pdf).
 
 ---
 
 ## Playable Demos
+
+<p align="center">
+  <img src="../assets/image/2025_07_23_game_screenshot1.webp">
+  <br>
+  <em>HpGame_Rage_Optimized</em>
+</p>
 
 You can play the experimental game models directly in your browser.
 
@@ -202,7 +226,7 @@ Which one did you play longer?
 
 We predict that most people will find the optimized version more compelling and play it longer. If this is the case for you, it serves as powerful **empirical evidence** for our "Theory of Anticipation."
 
-It is important to note that the game's parameters were improved using only our Game Design Score (GDS) metric** — an objective measurement based on the Theory of Anticipation(ToA) — **without any subjective input from designers.
+It is important to note that the game's parameters were improved using only our Game Design Score (GDS) metric — an objective measurement based on the Theory of Anticipation(ToA) — without any subjective input from designers.
 
 ---
 
