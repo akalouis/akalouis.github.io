@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Can You Mathematically Measure Fun? Yes, With Theory of Anticipation"
+title: "Can You Mathematically Measure Fun? Theory of Anticipation Explained"
+description: "Discover how Theory of Anticipation provides the first mathematical framework for quantifying engagement in games, with interactive demos proving measurable results."
 date: 2024-12-01
-description: "Introducing a mathematical framework that quantifies engagement and enables computational optimization of game design."
-tags: [game-design, mathematics, theory, research]
+keywords: "mathematical game design, engagement measurement, fun optimization, game mechanics, theory of anticipation"
+tags: [game-design, mathematics, engagement, research, optimization]
+image: "/assets/images/mathematical-fun-cover.png"
+canonical_url: "https://akalouis.github.io/2024/12/01/measuring-fun-mathematically/"
 ---
 
 For decades, game design has relied on intuition and playtesting. What makes a game fun? Why do some mechanics feel engaging while others fall flat? These questions have remained largely subjective—until now.
