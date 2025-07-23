@@ -1,0 +1,12 @@
+title: Theory of Anticipation
+description: A mathematical framework for quantifying engagement. Also a first engineering tool for game design.
+baseurl: "/anticipation-theory"
+url: "https://akalouis.github.io"
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author: 
+  name: Lloyd Oh
+  bio: "CEO of Farseer Co., Ltd, Creator of Xenuine Anti-Cheat"
+  avatar: "/assets/images/avatar.jpg"

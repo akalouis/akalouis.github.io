@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Charter:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">
+                    <a href="{{ '/' | relative_url }}">Theory of Anticipation</a>
+                </h1>
+                <nav class="site-nav">
+                    <a href="{{ '/' | relative_url }}">Research</a>
+                    <a href="{{ '/blog' | relative_url }}">Blog</a>
+                    <a href="https://doi.org/10.5281/zenodo.15826917" target="_blank">Paper</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="site-main">
+        {{ content }}
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Louis Aka. Theory of Anticipation research.</p>
+        </div>
+    </footer>
+</body>
+</html>
