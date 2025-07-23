@@ -140,9 +140,9 @@ Let's unpack those 2 mechanics and have a closer look.
 **Game B** is called HpGame_Rage. It's HpGame with additional novel game mechanics added to it.
 
 ## HpGame:
-- 2 Players play with 5 HP each
-- Every turn, both players attack each other
-- If you reduce Player 2's HP to 0 while you are alive, you win
+> 2 Players play with 5 HP each
+> Every turn, both players attack each other
+> If you reduce Player 2's HP to 0 while you are alive, you win
 
 ## Rage/Crit system:
 - You gain Rage each time you take or give damage
