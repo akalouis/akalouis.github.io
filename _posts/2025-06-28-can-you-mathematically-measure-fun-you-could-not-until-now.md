@@ -75,7 +75,10 @@ Let's do some thought experiments:
 ```
 PAUSED GAME PROBLEM
 
-You're dominating in League of Legends — perfect position, commanding lead, about to achieve victory. Then the game pauses, indefinitely.
+You're dominating in League of Legends.
+Perfect position, commanding lead, about to achieve victory.
+
+Then the game pauses, indefinitely.
 ```
 
 Now, suddenly the game is no longer engaging.
