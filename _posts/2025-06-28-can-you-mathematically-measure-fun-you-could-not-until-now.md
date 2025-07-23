@@ -439,13 +439,11 @@ Questions? Discussions?
 
 Feel free to reach out.
 
-**aka.louis [at] outlook [dot] com**
-[Discord](https://discord.gg/t5wPx8DdUK)
+**aka.louis [at] outlook [dot] com**, or [Discord Community](https://discord.gg/t5wPx8DdUK).
 
 I am eager to discuss various insightful opinions and feedback from around the world!
 
 **Links:**
 - 🔬 [Academic Paper](https://doi.org/10.5281/zenodo.15826917)
 - 💻 [GitHub Repository](https://github.com/akalouis/anticipation-theory)
-- 🎮 [Interactive Demos](https://akalouis.github.io/anticipation-theory/)
-- 💬 [Discord Community](https://discord.gg/t5wPx8DdUK)
+- 💬 [Discord Community(Game Design Discussion)](https://discord.gg/t5wPx8DdUK)
