@@ -225,11 +225,13 @@ For more exciting details, I recommend visiting [GitHub](https://github.com/akal
 
 You can play the experimental game models directly in your browser.
 
-[🎮 Play HpGame (Baseline)](https://akalouis.github.io/anticipation-theory/Html/hpgame.html)
-The baseline 1v1 game used in our research.
+[Play HpGame (Baseline)](https://akalouis.github.io/anticipation-theory/Html/hpgame.html)
 
-[🎮 Play HpGame_Rage_Optimized](https://akalouis.github.io/anticipation-theory/Html/hpgame_rage_optimized.html)
-An enhanced version demonstrating a **+51.7% improvement** in Game Design Score (0.653412) compared to the baseline.
+[Play HpGame_Rage_Optimized](https://akalouis.github.io/anticipation-theory/Html/hpgame_rage_optimized.html)
+
+HpGame: The baseline 1v1 game used in our research.
+
+HpGame_Rage_Optimized: An enhanced version demonstrating a **+51.7% improvement** in Game Design Score (0.653412) compared to the baseline.
 
 Which game did you find more engaging?
 Which one did you play longer?
