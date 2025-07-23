@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="home-hero">
+        <h1>Louis Aka</h1>
+        <p class="hero-subtitle">Game Design Research & Consulting</p>
+        <p>Mathematical frameworks for quantifying engagement and optimizing game design.</p>
+        
+        <div class="hero-links">
+            <a href="/blog/" class="btn-primary">Research Blog</a>
+            <a href="https://github.com/akalouis/anticipation-theory" class="btn-secondary">Theory of Anticipation</a>
+            <a href="https://doi.org/10.5281/zenodo.15826917" class="btn-secondary">Academic Paper</a>
+        </div>
+    </div>
+    
+    <div class="recent-posts">
+        <h2>Latest Research</h2>
+        {% for post in site.posts limit:3 %}
+        <article class="post-card">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.description }}</p>
+            <time>{{ post.date | date: "%B %d, %Y" }}</time>
+        </article>
+        {% endfor %}
+    </div>
+</div>
