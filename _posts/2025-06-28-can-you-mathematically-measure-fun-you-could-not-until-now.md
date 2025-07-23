@@ -28,7 +28,7 @@ I did exactly that. Here's how.
 
 ## The Problem of All Game Designers
 
-![](../assets/image/2025_07_23_art.webp)
+![](/assets/image/2025_07_23_art.webp)
 
 You are a game designer at a big game studio. You are developing a brand new title. You work overnight, and finally come up with an innovative, game-defining mechanic, and it gets immediately rejected.
 
@@ -112,12 +112,12 @@ Here's what it does:
 **Those are 2 games with different game mechanics.**
 
 <p align="center">
-  <img src="../assets/image/2025_07_23_experiment1.webp">
+  <img src="/assets/image/2025_07_23_experiment1.webp">
   <br>
   <em>Game A. Game Design Score: 0.430483</em>
 </p>
 <p align="center">
-  <img src="../assets/image/2025_07_23_experiment2.webp">
+  <img src="/assets/image/2025_07_23_experiment2.webp">
   <br>
   <em>Game B. Game Design Score: 0.544004</em>
 </p>
@@ -174,13 +174,13 @@ On critical hit, you deal additional damage amplified by Rage
 The result is:
 
 <p align="center">
-  <img src="../assets/image/2025_07_23_experiment3.webp">
+  <img src="/assets/image/2025_07_23_experiment3.webp">
   <br>
   <em>HpGame. Sorted. Most engaging moments come first.</em>
 </p>
 
 <p align="center">
-  <img src="../assets/image/2025_07_23_experiment4.webp">
+  <img src="/assets/image/2025_07_23_experiment4.webp">
   <br>
   <em>HpGame_Rage. Sorted. Most engaging moments come first.</em>
 </p>
@@ -206,7 +206,7 @@ For more exciting details, I recommend visiting [GitHub](https://github.com/akal
 ## Playable Demos
 
 <p align="center">
-  <img src="../assets/image/2025_07_23_game_screenshot1.webp">
+  <img src="/assets/image/2025_07_23_game_screenshot1.webp">
   <br>
   <em>HpGame_Rage_Optimized</em>
 </p>
