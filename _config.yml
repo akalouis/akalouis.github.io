@@ -3,6 +3,7 @@ description: "The first mathematical framework for quantifying engagement and op
 baseurl: ""
 url: "https://akalouis.github.io"
 markdown: kramdown
+permalink: /:title/
 
 # SEO Plugins
 plugins:
