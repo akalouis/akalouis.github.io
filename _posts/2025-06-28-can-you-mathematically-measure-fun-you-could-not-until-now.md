@@ -24,7 +24,7 @@ I did exactly that. Here's how.
 
 ---
 
-# The Problem of All Game Designers
+## The Problem of All Game Designers
 
 You are a game designer at a big game studio. You are developing a brand new title. You work overnight, and finally come up with an innovative, game-defining mechanic, and it gets immediately rejected.
 
@@ -50,7 +50,7 @@ Now, let's solve this problem.
 
 ---
 
-# The Theory of Anticipation
+## The Theory of Anticipation
 
 Theory of Anticipation (ToA) is a recently born framework that enables objective evaluation of 'fun' in game designs.
 
@@ -68,7 +68,7 @@ If there's something worth your attention, either requiring your action or just 
 
 Let's do some thought experiments:
 
-### PAUSED GAME PROBLEM
+**PAUSED GAME PROBLEM**
 
 You're dominating in League of Legends — perfect position, commanding lead, about to achieve victory. Then the game pauses, indefinitely.
 
@@ -76,7 +76,7 @@ Now, suddenly the game is no longer engaging.
 
 Why? Because there will be zero meaningful events remaining.
 
-### PENALTY-ONLY GAME
+**PENALTY-ONLY GAME**
 
 Choose: lose 10 points (90% chance) or lose 100 points (10% chance).
 
@@ -99,7 +99,7 @@ For technical details, check out the [GitHub repository](https://github.com/akal
 
 ---
 
-# So, What Does This Do?
+## So, What Does This Do?
 
 Here's what it does:
 
@@ -133,7 +133,7 @@ Let's unpack those 2 mechanics and have a closer look.
 
 ---
 
-# The Two Benchmark Games
+## The Two Benchmark Games
 
 **Game A** was actually named HpGame — a simple baseline game that models 1v1 fighting games like Street Fighter, King of Fighters, Tekken.
 
@@ -168,27 +168,26 @@ For more exciting details, visit the [GitHub repository](https://github.com/akal
 
 ---
 
-# Playable Demos
+## Playable Demos
 
 You can play the experimental game models directly in your browser.
 
-## [🎮 Play HpGame (Baseline)](https://akalouis.github.io/anticipation-theory/Html/hpgame.html)
+[🎮 Play HpGame (Baseline)](https://akalouis.github.io/anticipation-theory/Html/hpgame.html)
 The baseline 1v1 game used in our research.
 
-## [🎮 Play HpGame_Rage_Optimized](https://akalouis.github.io/anticipation-theory/Html/hpgame_rage_optimized.html)
+[🎮 Play HpGame_Rage_Optimized](https://akalouis.github.io/anticipation-theory/Html/hpgame_rage_optimized.html)
 An enhanced version demonstrating a **+51.7% improvement** in Game Design Score (0.653412) compared to the baseline.
 
-**Which game did you find more engaging?**
+Which game did you find more engaging?
+Which one did you play longer?
 
-**Which one did you play longer?**
+We predict that most people will find the optimized version more compelling and play it longer. If this is the case for you, it serves as powerful **empirical evidence** for our "Theory of Anticipation."
 
-We predict that most people will find the optimized version more compelling and play it longer. If this is the case for you, it serves as powerful empirical evidence for our "Theory of Anticipation."
-
-**It is important to note that the game's parameters were improved using only our Game Design Score (GDS) metric** — an objective measurement based on the Theory of Anticipation(ToA) — **without any subjective input from designers.**
+It is important to note that the game's parameters were improved using only our Game Design Score (GDS) metric** — an objective measurement based on the Theory of Anticipation(ToA) — **without any subjective input from designers.
 
 ---
 
-# Industry Application
+## Industry Application
 
 One profound strength of Theory of Anticipation is that it is readily applicable to game design right now.
 
@@ -202,7 +201,7 @@ Hmm, I think it's getting a little boring. How about this?
 
 ---
 
-# The "Subjectivity" Problem
+## The "Subjectivity" Problem
 
 > Q. How about Subjectivity? I am sure your theory will break down like every other existing theory.
 > 
@@ -218,7 +217,7 @@ The way ToA deals with subjectivity reveals its most compelling aspects.
 
 Let us show off about that aspect.
 
-## Problem: Games Get Old Over Time
+**Problem: Games Get Old Over Time**
 
 Same game, getting bored over time...
 
@@ -238,7 +237,7 @@ It definitely deserves a dedicated section. 😉
 
 ---
 
-# Hierarchical Anticipation
+## Hierarchical Anticipation
 
 So, you recursively apply the same anticipation formula to extract multiple components?
 
@@ -323,7 +322,7 @@ However, it is not yet the end of the surprise...
 
 ---
 
-# Narrative Structure
+## Narrative Structure
 
 Studying the mathematical properties of nested components, we have found a very interesting implication.
 
@@ -341,7 +340,7 @@ In other words, this indicates that the optimally fun game needs to have **Ups a
 
 ---
 
-# Full Implication of Theory of Anticipation
+## Full Implication of Theory of Anticipation
 
 > "It was meant to be a game design tool but..."
 
@@ -359,7 +358,7 @@ While not yet formally proven, I have a strong gut feeling that optimizing highe
 
 ---
 
-# Thank You For Reading!
+## Thank You For Reading!
 
 Thank you for staying with me through this journey. I hope it was a thought-provoking experience for you.
 
@@ -377,7 +376,7 @@ ToA was initially developed to address this difficulty in discussing game design
 
 ---
 
-# Let's Connect
+## Let's Connect
 
 **Questions? Discussions?**
 
