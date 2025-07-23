@@ -180,7 +180,7 @@ body {
     line-height: 1.04;
     letter-spacing: -0.032em;
     margin-bottom: 24px;
-    color: #1a1a1a;
+    color: #2e3338;
 }
 
 .post-meta {
@@ -201,12 +201,12 @@ body {
     margin: 0;
 }
 
-/* Enhanced Medium-style post content - improved readability */
+/* Enhanced Medium-style post content - much softer */
 .post-content {
     font-size: 20px;
     line-height: 1.6;
     letter-spacing: 0.01em;
-    color: #292929;
+    color: #41454a;
     max-width: 680px;
     margin: 0 auto;
 }
@@ -219,7 +219,7 @@ body {
     line-height: 1.04;
     letter-spacing: -0.032em;
     margin: 48px 0 24px 0;
-    color: #1a1a1a;
+    color: #2e3338;
 }
 
 .post-content h2 {
@@ -229,7 +229,7 @@ body {
     line-height: 1.15;
     letter-spacing: -0.022em;
     margin: 40px 0 20px 0;
-    color: #1a1a1a;
+    color: #2e3338;
 }
 
 .post-content h3 {
@@ -239,26 +239,26 @@ body {
     line-height: 1.22;
     letter-spacing: -0.012em;
     margin: 32px 0 16px 0;
-    color: #1a1a1a;
+    color: #2e3338;
 }
 
-/* Paragraph styling - improved spacing */
+/* Paragraph styling - softer color */
 .post-content p {
     margin: 0 0 24px 0;
     font-weight: 400;
-    color: #292929;
+    color: #41454a;
 }
 
-/* Quote styling - Medium style */
+/* Quote styling - much lighter than body text */
 .post-content blockquote {
-    border-left: 3px solid #000;
+    border-left: 3px solid #e8e8e8;
     padding-left: 23px;
     margin: 32px 0;
     font-style: italic;
     font-size: 24px;
     line-height: 1.48;
     letter-spacing: -0.014em;
-    color: #6B6B6B;
+    color: #8e8e8e;
     font-weight: 400;
 }
 
@@ -269,13 +269,13 @@ body {
 /* Bold text styling - softer color */
 .post-content strong, .post-content b {
     font-weight: 700;
-    color: #1a1a1a;
+    color: #2e3338;
 }
 
 /* Emphasis styling */
 .post-content em, .post-content i {
     font-style: italic;
-    color: #292929;
+    color: #41454a;
 }
 
 /* Link styling - Medium green */
@@ -292,10 +292,10 @@ body {
     text-decoration-thickness: 2px;
 }
 
-/* Code styling - improved contrast */
+/* Code styling - softer colors */
 .post-content code {
     background: #f6f6f6;
-    color: #1a1a1a;
+    color: #2e3338;
     padding: 3px 6px;
     border-radius: 3px;
     font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
@@ -321,7 +321,7 @@ body {
     font-size: 16px;
 }
 
-/* List styling - improved readability */
+/* List styling - softer colors */
 .post-content ul, .post-content ol {
     margin: 24px 0;
     padding-left: 30px;
@@ -331,11 +331,11 @@ body {
     margin: 8px 0;
     font-size: 20px;
     line-height: 1.6;
-    color: #292929;
+    color: #41454a;
 }
 
 .post-content li::marker {
-    color: #6B6B6B;
+    color: #a8a8a8;
 }
 
 /* Horizontal rule */
@@ -416,7 +416,7 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     border-radius: 8px;
     font-weight: 400;
-    color: #1a1a1a;
+    color: #2e3338;
 }
 
 /* Modern section dividers */
@@ -463,7 +463,7 @@ body {
 
 .tag:hover {
     background: #e8e8e8;
-    color: #1a1a1a;
+    color: #2e3338;
     text-decoration: none;
 }
 

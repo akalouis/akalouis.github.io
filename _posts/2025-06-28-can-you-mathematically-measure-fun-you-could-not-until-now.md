@@ -74,7 +74,9 @@ Let's do some thought experiments:
 
 **PAUSED GAME PROBLEM**
 
+```
 You're dominating in League of Legends — perfect position, commanding lead, about to achieve victory. Then the game pauses, indefinitely.
+```
 
 Now, suddenly the game is no longer engaging.
 
@@ -82,7 +84,9 @@ Why? Because there will be zero meaningful events remaining.
 
 **PENALTY-ONLY GAME**
 
+```
 Choose: lose 10 points (90% chance) or lose 100 points (10% chance).
+```
 
 Despite ALL outcomes being bad, you still feel tension. Why? Because there are **still meaningful events ahead.**
 
