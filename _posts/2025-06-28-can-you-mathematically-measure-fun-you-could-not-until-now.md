@@ -10,13 +10,15 @@ image: "/assets/images/mathematical-fun-cover.png"
 
 > "How do you measure fun with math?"
 
+---
+
 For 50 years, game designers have been flying blind. They rely on gut instinct and expensive, endless playtesting to answer the industry's most fundamental question: What makes a game engaging?
 
 Blizzard spent years developing Overwatch through internal playtests. Riot Games employs armies of game designers to balance League of Legends. Valve is known for their intense playtesting-driven game development methodology for the "perfectly" engaging game experience.
 
 But, what if I told you we just solved this with pure mathematics?
 
-What if you could predict, before writing a single line of code, that Mechanic A will be 26.5% more engaging than Mechanic B?
+What if you could predict, before writing a single line of code, that Mechanic A will be **26.5% more engaging** than Mechanic B?
 
 What if it was even possible to "prove" which game design is "optimal"?
 
@@ -25,6 +27,8 @@ I did exactly that. Here's how.
 ---
 
 ## The Problem of All Game Designers
+
+![](../assets/image/2025_07_23_art.webp)
 
 You are a game designer at a big game studio. You are developing a brand new title. You work overnight, and finally come up with an innovative, game-defining mechanic, and it gets immediately rejected.
 
@@ -68,7 +72,7 @@ If there's something worth your attention, either requiring your action or just 
 
 Let's do some thought experiments:
 
-**PAUSED GAME PROBLEM**
+**_PAUSED GAME PROBLEM_**
 
 You're dominating in League of Legends — perfect position, commanding lead, about to achieve victory. Then the game pauses, indefinitely.
 
@@ -76,24 +80,28 @@ Now, suddenly the game is no longer engaging.
 
 Why? Because there will be zero meaningful events remaining.
 
-**PENALTY-ONLY GAME**
+**_PENALTY-ONLY GAME_**
 
 Choose: lose 10 points (90% chance) or lose 100 points (10% chance).
 
-Despite ALL outcomes being bad, you still feel tension. Why? Because there are still meaningful events ahead.
+Despite ALL outcomes being bad, you still feel tension. Why? Because there are **still meaningful events ahead.**
 
-Counterintuitively, the fun — in other words, engagement — is deeply related to the **"varied outcomes,"** not the reward or desire itself.
+Counterintuitively, the fun — in other words, engagement — is deeply related to the "varied outcomes," not the reward or desire itself.
 
 If you measure this "varied outcomes" in the most mathematically natural way, you end up with this beautiful equation:
 
 ## Local Anticipation Formula
 
+```math
 μ(s) = Σ P(s→s') × D(s')
+```
+```math
 A(s) = √[Σ P(s→s') × (D(s') — μ(s))²]
+```
 
 Don't panic! There's no need to understand any of this to enjoy the article.
 
-In plain English, it is just measuring **"How uncertain are the meaningful outcomes from this moment?"**
+In plain English, it is just measuring *"How uncertain are the meaningful outcomes from this moment?"*
 
 For technical details, check out the [GitHub repository](https://github.com/akalouis/anticipation-theory) and [academic paper](https://doi.org/10.5281/zenodo.15826917).
 
@@ -104,6 +112,17 @@ For technical details, check out the [GitHub repository](https://github.com/akal
 Here's what it does:
 
 **Those are 2 games with different game mechanics.**
+
+<p align="center">
+  <img src="../assets/image/2025_07_23_experiment1.webp" alt="Game B">
+  <br>
+  <em>Game A. Game Design Score:0.430483</em>
+</p>
+<p align="center">
+  <img src="../assets/image/2025_07_23_experiment2.webp" alt="Game B">
+  <br>
+  <em>Game B. Game Design Score: 0.544004</em>
+</p>
 
 You see, **Game B is 26.5% (0.43 → 0.544) superior to Game A, mathematically.**
 
