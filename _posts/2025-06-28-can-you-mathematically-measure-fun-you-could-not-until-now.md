@@ -97,9 +97,9 @@ Counterintuitively, the fun — in other words, engagement — is deeply related
 
 If you measure this "varied outcomes" in the most mathematically natural way, you end up with this beautiful equation:
 
-## Local Anticipation Formula
-
 ```
+[Local Anticipation Formula]
+
 μ(s) = Σ P(s→s') × D(s')
 A(s) = √[Σ P(s→s') × (D(s') — μ(s))²]
 ```
