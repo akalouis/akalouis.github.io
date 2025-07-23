@@ -422,37 +422,10 @@ body {
 /* Modern section dividers */
 .post-content hr {
     border: none;
-    height: 2px;
-    background: linear-gradient(90deg, transparent 0%, #ddd 20%, #666 50%, #ddd 80%, transparent 100%);
-    margin: 64px auto;
-    border-radius: 2px;
-    width: 120px;
-    position: relative;
-    overflow: visible;
-}
-
-.post-content hr::before {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 8px;
-    height: 8px;
-    background: #666;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.post-content hr:hover {
-    background: linear-gradient(90deg, transparent 0%, #bbb 20%, #444 50%, #bbb 80%, transparent 100%);
-    transition: all 0.3s ease;
-}
-
-.post-content hr:hover::before {
-    background: #444;
-    transform: translateX(-50%) scale(1.2);
-    transition: all 0.3s ease;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, #ccc 30%, #888 50%, #ccc 70%, transparent 100%);
+    margin: 48px auto;
+    width: 80px;
 }
 
 /* Mathematical formula styling */
