@@ -92,14 +92,12 @@ If you measure this "varied outcomes" in the most mathematically natural way, yo
 
 ## Local Anticipation Formula
 
-```math
-μ(s) = Σ P(s→s') × D(s')
 ```
-```math
+μ(s) = Σ P(s→s') × D(s')
 A(s) = √[Σ P(s→s') × (D(s') — μ(s))²]
 ```
 
-Don't panic! There's no need to understand any of this to enjoy the article.
+**Don't panic!** There's no need to understand any of this to enjoy the article.
 
 In plain English, it is just measuring *"How uncertain are the meaningful outcomes from this moment?"*
 
@@ -250,11 +248,11 @@ Hmm, I think it's getting a little boring. How about this?
 > 
 > A. Haha, this time, no.
 
-**Subjectivity is the most overused excuse for avoiding quantification of fun historically.**
+Subjectivity is **the most overused excuse** for avoiding quantification of fun historically.
 
 We don't even have proper academia for game design, which is a sad story. Why?
 
-Because it's all subjective! How do you do science if there's no math!?
+Because it's all **subjective**! How do you do science if there's no math!?
 
 The way ToA deals with subjectivity reveals its most compelling aspects.
 
@@ -262,13 +260,13 @@ Let us show off about that aspect.
 
 **Problem: Games Get Old Over Time**
 
-Same game, getting bored over time...
-
-It is me, ...therefore subjective, right?
+> Same game, getting bored over time...
+>
+> "It is me, ...therefore subjective, right?"
 
 Have you ever experienced a game getting boring over time?
 
-The Local Anticipation Formula shown above was so general, beautiful, gorgeous, elegant, pure, generous, marvelous, robust, lovely, ... **it could be applied recursively!**
+The Local Anticipation Formula shown above was so general, beautiful, gorgeous, elegant, pure, generous, marvelous, robust, lovely, ... it could be applied **recursively!**
 
 By applying it recursively, we can extract multiple components of anticipation with varying depth, such as **A₁ + A₂ + A₃ + ...**
 
@@ -286,7 +284,7 @@ So, you recursively apply the same anticipation formula to extract multiple comp
 
 Why even do that? What does each component even mean?
 
-**Each component A₁, A₂, A₃... captures continuously deeper and longer-term layers of anticipation.** This coincidentally equals...
+Each component A₁, A₂, A₃... captures continuously deeper and longer-term layers of anticipation. This coincidentally equals...
 
 **Players' perceived anticipation shifts: A₁ → A₂ → A₃ over time as they develop mastery.**
 
@@ -300,7 +298,7 @@ Naturally, you feel less variance in lower components like A₁ and higher compo
 
 However, this recursive anticipation is not something that was artificially developed to deal with subjectivity.
 
-**It was a coincidental and beautiful mathematical equivalence.**
+It was a coincidental and beautiful mathematical equivalence.
 
 Let's dive into it more deeply.
 
@@ -312,17 +310,17 @@ However, this anticipation A₁ was not sufficient to represent multi-turn games
 
 Let's have another thought experiment:
 
-You play a long session of a MOBA game. However, you are given a **game-ending button** that will end the game with 50% win probability, immediately after you press that button.
+You play a long session of a MOBA game. However, you are given a game-ending button that will end the game with 50% win probability, immediately after you press that button.
 
 In this hypothetical game session, the value of A₁ indicates 0.5 all the time, which is the proven theoretical limit of A₁'s value.
 
-In other words, the non-recursive version of ToA thinks this game is optimally fun and there exists no more fun game than this!
+In other words, the non-recursive version of ToA thinks this game is **optimally fun and there exists no more fun** game than this!
 
 Hmm, something's very wrong here, right?
 
 The existence of the game-ending button effectively eliminates all strategic value. In the end, only the game ending button matters.
 
-**Now the magic begins.**
+Now the magic begins.
 
 It turns out, that the fun, anticipation, was not a single value. But a **recursively structured, multi-dimensional value!**
 
@@ -332,16 +330,18 @@ Multiple ways of explaining this. Let me explain intuitively.
 
 Looking at the formula of Local Anticipation, there is D. Which stands for 'desire.'
 
-Naturally, people want more fun moments within a game session, right? Therefore, it is plausible to treat anticipation as new desire, establishing this recursive structure.
+Naturally, people **want** more fun moments within a game session, right? Therefore, it is plausible to treat **anticipation as new desire**, establishing this recursive structure.
 
 It turns out, these components correspond to each layer of strategic branches.
 
-**Intuitively speaking:**
-- **A₁** "What button do I press next?"
-- **A₂** "What's my next combo?"
-- **A₃** "What's my next positioning?"
-- **A₄** "Is it better not to take this fight?"
-- **A₅** "How do I break the established meta?"
+Intuitively speaking:
+```
+A₁ "What button do I press next?"
+A₂ "What's my next combo?"
+A₃ "What's my next positioning?"
+A₄ "Is it better not to take this fight?"
+A₅ "How do I break the established meta?"
+```
 
 Remember the perceived fun changes over time as you get familiar with the game?
 
@@ -349,7 +349,7 @@ If your mastery is at the A₁ level, since you cannot predict the game beyond t
 
 However, if you keep playing, your prediction capabilities get better and better, you perceive higher components like A₂, A₃, and so on.
 
-**Yes, your fun changes over time, from the A₁ level to A₂, A₃, ...**
+Yes, your fun changes over time, from the A₁ level to A₂, A₃, ...
 
 In this very predictable manner.
 
@@ -357,9 +357,9 @@ But A₁, A₂... also correspond to strategic layer depth, right?
 
 So that means...
 
-**We've accidentally proven that highly strategic games mathematically equate to highly replayable games...**
+We've accidentally proven that **highly strategic games mathematically equate to highly replayable games...**
 
-Wow. Just wow. Isn't it?
+**Wow. Just wow. Isn't it?**
 
 However, it is not yet the end of the surprise...
 
@@ -377,9 +377,9 @@ This equates to a **mathematical proof that games should not be "always fun" to 
 
 In other words, this indicates that the optimally fun game needs to have **Ups and Downs** — sometimes a little boring, sometimes exciting — strongly suggesting rhythmic, unpredictable, deep narrative structure.
 
-> Wow, what? So the optimal game should be a narrative experience?
+> Wow, what? So the optimal game should be a **narrative experience?**
 
-**Yes! Amazing mathematical discovery, isn't it?**
+**Yes!** Amazing mathematical discovery, isn't it?
 
 ---
 
@@ -387,17 +387,17 @@ In other words, this indicates that the optimally fun game needs to have **Ups a
 
 > "It was meant to be a game design tool but..."
 
-**Movies, novels, and anime are all fun because you anticipate what will happen next.** You don't know what will happen next, and you anticipate something important will happen in the future with a dramatic reversal of fortune.
+Movies, novels, and anime are all fun because you anticipate what will happen next. You don't know what will happen next, and you anticipate something important will happen in the future with a dramatic reversal of fortune.
 
-Yes, you anticipate something in the show, so the show is fun.
+Yes, you **anticipate** something in the show, so the show is fun.
 
-**We have found that Theory of Anticipation explains engagement across different media.**
+We have found that Theory of Anticipation explains engagement across different media.
 
-It was meant to be a game design tool, but it turns out that **we've cracked something far more fundamental than this.**
+It was meant to be a game design tool, but it turns out that we've cracked something far more fundamental than this.
 
-The theory and GitHub source code are not yet optimized for this use, however, it is very plausible that ToA could be applied to narrative content in a systematic way in the future.
+The theory and GitHub source code are not yet optimized for this use, however, it is **very** plausible that ToA could be applied to narrative content in a systematic way in the future.
 
-While not yet formally proven, I have a strong gut feeling that optimizing higher components (A₃, A₄...) will result in traditional narrative principles like **Freytag's Pyramid** or the **Three-Act Structure**.
+While not yet formally proven, I have a strong gut feeling that optimizing higher components (A₃, A₄...) will result in traditional narrative principles like Freytag's Pyramid or the Three-Act Structure.
 
 ---
 
@@ -411,19 +411,22 @@ I certainly did my best to keep the anticipation high! 😉
 
 > "That is your subjective idea."
 
-I'd explain "This design is superior because...," only to be met with the infamous "That's your subjective idea."
+I'd explain "This design is superior because...," only to be met with the infamous **"That's your subjective idea."**
 
 ToA was initially developed to address this difficulty in discussing game designs.
 
-**Now I am ready to reply, "Nah, mine's objective!"**
+Now I am ready to reply, "Nah, mine's **objective!**"
 
 ---
 
 ## Let's Connect
 
-**Questions? Discussions?**
+Questions? Discussions?
 
-Feel free to reach out: **aka.louis [at] outlook [dot] com**
+Feel free to reach out.
+
+**aka.louis [at] outlook [dot] com**
+[Discord](https://discord.gg/t5wPx8DdUK)
 
 I am eager to discuss various insightful opinions and feedback from around the world!
 
