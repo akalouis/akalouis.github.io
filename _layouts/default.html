@@ -5,33 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% seo %}
     {% include seo-content.html %}
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/default.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Charter:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    {% if page.layout == 'post' %}
+        <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}">
+    {% endif %}
+
     {% include structured-data.html %}
 </head>
 <body>
-    <header class="site-header">
+    <nav class="navigation">
         <div class="container">
-            <div class="header-content">
-                <h1 class="site-title">
-                    <a href="{{ '/' | relative_url }}">Theory of Anticipation</a>
-                </h1>
-                <nav class="site-nav">
-                    <a href="{{ '/' | relative_url }}">Research</a>
-                    <a href="{{ '/blog' | relative_url }}">Blog</a>
-                    <a href="https://doi.org/10.5281/zenodo.15826917" target="_blank">Paper</a>
-                </nav>
+            <div class="nav-content">
+                <a href="/" class="logo">ToA</a>
+                <div class="nav-links">
+                    <a href="/can-you-mathematically-measure-fun-you-could-not-until-now/">Article</a>
+                    <a href="/#proof">Demo</a>
+                    <a href="https://doi.org/10.5281/zenodo.15826917" target="_blank" rel="noopener">Paper</a>
+                    <a href="https://github.com/akalouis/anticipation-theory" target="_blank" rel="noopener">GitHub</a>
+                </div>
             </div>
         </div>
-    </header>
-    
+    </nav>
+
     <main class="site-main">
         {{ content }}
     </main>
-    
-    <footer class="site-footer">
+
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Lloyd Oh.</p>
+            <div class="footer-links">
+                <a href="https://medium.com/@aka.louis/can-you-mathematically-measure-fun-you-could-not-until-now-01168128d428">Medium</a>
+                <a href="https://doi.org/10.5281/zenodo.15826917" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/akalouis/anticipation-theory" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2025 Theory of Anticipation. Design, Quantified.</p>
+            </div>
         </div>
     </footer>
 </body>
