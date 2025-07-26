@@ -1,5 +1,5 @@
-title: "Theory of Anticipation - Mathematical Framework for Game Design"
-description: "The first mathematical framework for quantifying engagement and optimizing game design. F=ma for fun - first xxx mechanics of fun."
+title: "Theory of Anticipation"
+description: "The first mathematical framework for quantitative game design."
 baseurl: ""
 url: "https://akalouis.github.io"
 markdown: kramdown
@@ -13,12 +13,11 @@ plugins:
 
 # SEO Settings
 author:
-  name: Lloyd Oh
-  bio: "CEO of Farseer Co., Ltd, Creator of Theory of Anticipation"
-  avatar: "/assets/images/lloyd-oh.jpg"
+  name: akalouis
+  bio: "Creator of Theory of Anticipation"
   
 social:
-  name: Lloyd Oh
+  name: akalouis
   links:
     - https://github.com/akalouis
     - https://doi.org/10.5281/zenodo.15826917
@@ -31,5 +30,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Lloyd Oh"
-      image: "/assets/images/toa-default.png"
+      author: "akalouis"
