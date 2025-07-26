@@ -3,199 +3,475 @@ layout: default
 title: "Theory of Anticipation - First Objective Mathematical Tool for Game Design"
 description: "The first mathematical framework for quantifying engagement. Moving game design from intuition to math based engineering."
 keywords: "game design, engagement optimization, mathematical framework, fun measurement, game mechanics, anticipation theory"
+image: "/assets/images/toa-hero.png"
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theory of Anticipation - Mathematical Framework for Game Design</title>
-    <meta name="description" content="A mathematical framework for quantifying engagement in interactive experiences. Moving game design from intuition to engineering through computational optimization.">
-    <meta name="keywords" content="game design, engagement optimization, mathematical framework, anticipation theory, game mechanics">
-    
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="blog.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="header-content">
-            <div class="site-title">
-                <a href="/">Theory of Anticipation</a>
+<div class="container">
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-badge">
+            <span>🎮 Game Design Research</span>
+        </div>
+        <h1 class="hero-title">Theory of Anticipation</h1>
+        <p class="hero-subtitle">The first mathematical framework for quantifying engagement</p>
+        <p class="hero-description">
+            Moving game design from pure intuition to computational optimization. 
+            ToA provides the F = ma for fun — a fundamental equation that measures 
+            the uncertainty of meaningfulness in interactive experiences.
+        </p>
+        
+        <div class="hero-actions">
+            <a href="/blog" class="btn btn-primary">
+                <span>📖</span> Research Blog
+            </a>
+            <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-secondary">
+                <span>💻</span> Interactive Demos
+            </a>
+            <a href="https://doi.org/10.5281/zenodo.15826917" class="btn btn-outline">
+                <span>📄</span> Academic Paper
+            </a>
+        </div>
+    </div>
+
+    <!-- What is ToA Section -->
+    <div class="what-is-section">
+        <div class="section-header">
+            <h2>What is Theory of Anticipation?</h2>
+            <p>The mathematical foundation for engagement optimization</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🔢</div>
+                <h3>Mathematical Framework</h3>
+                <p>Quantifies engagement using the uncertainty of meaningfulness principle, providing objective measurement of fun.</p>
             </div>
-            <nav class="site-nav">
-                <a href="/blog">Research</a>
-                <a href="https://github.com/akalouis/anticipation-theory">Demos</a>
-                <a href="https://doi.org/10.5281/zenodo.15826917">Paper</a>
-            </nav>
+            
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Computational Optimization</h3>
+                <p>Enables algorithmic improvement of game mechanics, moving design from art to engineering.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Proven Results</h3>
+                <p>Interactive demos show measurable engagement improvements through mathematical optimization alone.</p>
+            </div>
+
         </div>
-    </header>
+    </div>
 
-    <main>
-        <div class="container">
-            <!-- Hero Section -->
-            <section class="hero-section">
-                <div class="hero-badge">
-                    <span>🎮 Game Design Research</span>
-                </div>
-                <h1 class="hero-title">Theory of Anticipation</h1>
-                <p class="hero-subtitle">Mathematical framework for quantifying engagement</p>
-                <p class="hero-description">
-                    Theory of Anticipation introduces the first computational method for measuring engagement in interactive systems. 
-                    By quantifying the uncertainty of meaningfulness across decision branches, 
-                    we can optimize game mechanics through mathematical principles rather than intuition alone.
-                </p>
-                
-                <div class="hero-actions">
-                    <a href="/blog" class="btn btn-primary">
-                        <span>📖</span> Research Blog
-                    </a>
-                    <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-secondary">
-                        <span>💻</span> Interactive Demos
-                    </a>
-                    <a href="https://doi.org/10.5281/zenodo.15826917" class="btn btn-outline">
-                        <span>📄</span> Academic Paper
-                    </a>
-                </div>
-            </section>
-
-            <!-- Core Framework Section -->
-            <section class="content-section">
-                <div class="section-header">
-                    <h2>The Mathematical Foundation</h2>
-                    <p>Quantifying engagement through uncertainty of meaningfulness across decision branches</p>
-                </div>
-                
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🔢</div>
-                        <h3>Objective Measurement</h3>
-                        <p>Replaces subjective design intuition with mathematical precision. The framework quantifies engagement as the weighted uncertainty of meaningfulness across possible future states.</p>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">⚡</div>
-                        <h3>Algorithmic Optimization</h3>
-                        <p>Enables systematic improvement of interactive experiences through computational methods. Game mechanics can be refined using mathematical optimization techniques.</p>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">🎯</div>
-                        <h3>Empirically Validated</h3>
-                        <p>Demonstrated through controlled experiments showing measurable engagement improvements when mathematical optimization is applied to existing game systems.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Formula Section -->
-            <section class="formula-section">
-                <h3>The Core Equation</h3>
-                <div class="formula">
-                    A₁(s) = √(Σ P(s → s') · (D(s') - μ)²)
-                </div>
-                <p class="formula-description">
-                    Local Anticipation measures the standard deviation of meaningfulness across probability-weighted future branches, 
-                    providing a quantitative foundation for engagement optimization.
-                </p>
-            </section>
-
-            <!-- Experimental Validation -->
-            <section class="proof-section">
-                <h2>Experimental Validation</h2>
-                <div class="demo-comparison">
-                    <div class="demo-card">
-                        <h3>Control Version</h3>
-                        <p>Standard game mechanics implementation</p>
-                        <a href="https://akalouis.github.io/anticipation-theory/Html/hpgame.html" class="btn btn-outline">Experience Control</a>
-                    </div>
-                    <div class="demo-card featured">
-                        <h3>Optimized Version</h3>
-                        <p><strong>+51.7% engagement improvement</strong></p>
-                        <a href="https://akalouis.github.io/anticipation-theory/Html/hpgame_rage_optimized.html" class="btn btn-primary">Experience Optimization</a>
-                    </div>
-                </div>
-                <p class="proof-text">
-                    Both implementations use identical visual design and core mechanics. 
-                    The optimized version applies mathematical refinements based on Theory of Anticipation principles, 
-                    demonstrating quantifiable engagement improvements through computational optimization.
-                </p>
-            </section>
-
-            <!-- Research Section -->
-            <section class="content-section">
-                <div class="section-header">
-                    <h2>Research Documentation</h2>
-                    <p>Detailed exploration of mathematical foundations and practical applications</p>
-                </div>
-                
-                <div class="research-grid">
-                    <article class="research-card">
-                        <div class="research-meta">
-                            <time>Latest Research</time>
-                            <span>Research Paper</span>
-                        </div>
-                        <h3>
-                            <a href="https://doi.org/10.5281/zenodo.15826917">Mathematical Framework for Engagement Quantification</a>
-                        </h3>
-                        <p class="research-excerpt">
-                            Comprehensive mathematical treatment of anticipation theory, including formal proofs, 
-                            experimental methodology, and validation through controlled studies.
-                        </p>
-                        <div class="research-tags">
-                            <span class="tag">Mathematical Framework</span>
-                            <span class="tag">Engagement Theory</span>
-                            <span class="tag">Experimental Validation</span>
-                        </div>
-                    </article>
-
-                    <article class="research-card">
-                        <div class="research-meta">
-                            <time>Implementation Guide</time>
-                            <span>Technical Documentation</span>
-                        </div>
-                        <h3>
-                            <a href="https://github.com/akalouis/anticipation-theory">Interactive Demonstrations and Code</a>
-                        </h3>
-                        <p class="research-excerpt">
-                            Complete implementation examples with comparative analysis tools. 
-                            Includes source code for optimization algorithms and experimental frameworks.
-                        </p>
-                        <div class="research-tags">
-                            <span class="tag">Implementation</span>
-                            <span class="tag">Open Source</span>
-                            <span class="tag">Comparative Analysis</span>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Call to Action -->
-            <section class="cta-section">
-                <div class="cta-content">
-                    <h2>Apply Mathematical Optimization to Your Projects</h2>
-                    <p>
-                        Theory of Anticipation provides the mathematical foundation for systematic engagement optimization. 
-                        Explore the research, examine the code, and discover how computational methods can enhance interactive design.
-                    </p>
-                    <div class="cta-actions">
-                        <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-primary">
-                            Explore Implementation
-                        </a>
-                        <a href="/blog/" class="btn btn-secondary">
-                            Read Research
-                        </a>
-                    </div>
-                </div>
-            </section>
+    <!-- Core Formula Section -->
+    <div class="formula-section">
+        <div class="formula-card">
+            <h3>The Core Equation</h3>
+            <div class="formula">
+                A₁(s) = √(Σ P(s → s') · (D(s') - μ)²)
+            </div>
+            <p>Local Anticipation measures the uncertainty of meaningfulness of future branches — the mathematical essence of engagement.</p>
         </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2024 Theory of Anticipation Research. Mathematical framework for engagement optimization.</p>
+    </div>
+<!-- Add proof section -->
+<div class="proof-section">
+    <h2>Mathematical Proof in Action</h2>
+    <div class="demo-comparison">
+        <div class="demo-card">
+            <h3>Baseline Game</h3>
+            <p>Traditional game mechanics</p>
+            <a href="https://akalouis.github.io/anticipation-theory/Html/hpgame.html" class="btn btn-outline">Play Original</a>
         </div>
-    </footer>
-</body>
-</html>
+        <div class="demo-card featured">
+            <h3>Optimized Game</h3>
+            <p><strong>+51.7% engagement improvement</strong></p>
+            <a href="https://akalouis.github.io/anticipation-theory/Html/hpgame_rage_optimized.html" class="btn btn-primary">Play Optimized</a>
+        </div>
+    </div>
+    <p class="proof-text">
+        **Try both games. We predict you'll find the optimized version more engaging.** 
+        This improvement was achieved through <em>mathematical optimization alone</em> - no designer input.
+    </p>
+</div>
+
+    <!-- Latest Research Section -->
+    <div class="posts-section">
+        <div class="section-header">
+            <h2>Latest Research</h2>
+            <p>Exploring the mathematics behind engagement and game design</p>
+        </div>
+        
+        <div class="posts-grid">
+            {% for post in site.posts limit:3 %}
+            <article class="post-card">
+                <div class="post-card-header">
+                    <time class="post-date">{{ post.date | date: "%B %d, %Y" }}</time>
+                    <span class="post-reading-time">{{ post.content | number_of_words | divided_by: 200 }} min read</span>
+                </div>
+                <h3 class="post-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                <p class="post-excerpt">{{ post.description }}</p>
+                <div class="post-tags">
+                    {% if post.tags %}
+                        {% for tag in post.tags limit:3 %}
+                            <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        
+        <div class="posts-cta">
+            <a href="/blog/" class="btn btn-outline">View All Research →</a>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Optimize Your Games Mathematically?</h2>
+            <p>Discover how Theory of Anticipation can transform your game design process from intuition to engineering.</p>
+            <div class="cta-actions">
+                <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-primary">
+                    Try the Interactive Demos
+                </a>
+                <a href="/blog/" class="btn btn-secondary">
+                    Read the Research
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Additional styles for the homepage */
+.hero-section {
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    margin: -48px -24px 64px -24px;
+    border-radius: 0 0 24px 24px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(0, 102, 204, 0.1);
+    color: var(--color-accent);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.hero-title {
+    font-family: var(--font-secondary);
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+    color: var(--color-primary);
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    color: var(--color-secondary);
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color-secondary);
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background: var(--color-accent);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #0052a3;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: var(--color-primary);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--color-primary);
+    border-color: var(--color-border);
+}
+
+.btn-outline:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    transform: translateY(-2px);
+}
+
+.what-is-section {
+    margin-bottom: 80px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-header h2 {
+    font-family: var(--font-secondary);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--color-primary);
+}
+
+.section-header p {
+    font-size: 18px;
+    color: var(--color-secondary);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.feature-card {
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
+    border-color: var(--color-accent);
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.feature-card h3 {
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--color-primary);
+}
+
+.feature-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-secondary);
+}
+
+.formula-section {
+    margin-bottom: 80px;
+}
+
+.formula-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 16px;
+    padding: 48px;
+    text-align: center;
+    border: 1px solid var(--color-border);
+}
+
+.formula-card h3 {
+    font-family: var(--font-secondary);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: var(--color-primary);
+}
+
+.formula {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: var(--color-accent);
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.posts-section {
+    margin-bottom: 80px;
+}
+
+.posts-grid {
+    display: grid;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.post-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    color: var(--color-secondary);
+}
+
+.post-title a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.post-title a:hover {
+    color: var(--color-accent);
+}
+
+.post-excerpt {
+    color: var(--color-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.posts-cta {
+    text-align: center;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+    padding: 64px 48px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cta-content h2 {
+    font-family: var(--font-secondary);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.cta-content p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    opacity: 0.9;
+}
+
+.cta-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-section .btn-primary {
+    background: white;
+    color: var(--color-primary);
+}
+
+.cta-section .btn-primary:hover {
+    background: #f0f0f0;
+}
+
+.cta-section .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-section .btn-secondary:hover {
+    background: white;
+    color: var(--color-primary);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 48px 24px;
+        margin: -48px -20px 48px -20px;
+    }
+    
+    .hero-title {
+        font-size: 36px;
+    }
+    
+    .hero-subtitle {
+        font-size: 20px;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .formula-card {
+        padding: 32px 24px;
+    }
+    
+    .formula {
+        font-size: 20px;
+    }
+    
+    .cta-section {
+        padding: 48px 24px;
+    }
+    
+    .cta-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
