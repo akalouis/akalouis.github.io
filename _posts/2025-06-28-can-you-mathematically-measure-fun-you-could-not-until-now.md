@@ -2,10 +2,10 @@
 layout: post
 title: "Can you mathematically measure fun? You could not. Until now!"
 description: "After 50 years of subjective game design, Theory of Anticipation provides the first objective mathematical tool for quantifying engagement, with playable proofs."
-date: 2025-06-28
+date: 2025-06-28 00:00:00
+last_modified_at: 2025-07-21 00:00:00
 keywords: "mathematical game design, engagement measurement, fun optimization, game mechanics, theory of anticipation"
 tags: [game-design, mathematics, engagement, research, optimization]
-image: "/assets/images/mathematical-fun-cover.png"
 ---
 
 > "How do you measure fun with math?"
