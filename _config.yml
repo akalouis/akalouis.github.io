@@ -9,7 +9,6 @@ permalink: /:title/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
 
 # SEO Settings
 author:
