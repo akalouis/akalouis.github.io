@@ -10,11 +10,10 @@ author: "akalouis"
     <!-- Hero Section -->
     <div class="hero-section">
         <div class="hero-badge">
-            <span>🎮 Game Design Research</span>
+            <span>🎮 Revolutionary Game Design Research</span>
         </div>
-
         <h1 class="hero-title">Theory of Anticipation</h1>
-        <p class="hero-subtitle">Bring objectiveness to game design</p>
+        <p class="hero-subtitle">The first mathematical framework for quantifying engagement</p>
         <p class="hero-description">
             <strong>ToA provides the F = ma for fun</strong> — a fundamental equation measuring 
             the uncertainty of meaningfulness in interactive experiences. Move beyond intuition to 
@@ -22,14 +21,14 @@ author: "akalouis"
         </p>
         
         <div class="hero-actions">
-            <a href="/blog" class="btn btn-primary" aria-label="Read Theory of Anticipation research blog">
-                <span>📖</span> Research Blog
-            </a>
-            <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-secondary" aria-label="Try interactive Theory of Anticipation demos">
+            <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-primary" aria-label="Try interactive Theory of Anticipation demos">
                 <span>🎮</span> Interactive Demos
             </a>
-            <a href="https://doi.org/10.5281/zenodo.15826917" class="btn btn-outline" aria-label="Read Theory of Anticipation academic paper">
+            <a href="https://doi.org/10.5281/zenodo.15826917" class="btn btn-secondary" aria-label="Read Theory of Anticipation academic paper">
                 <span>📄</span> Academic Paper
+            </a>
+            <a href="#research" class="btn btn-outline" aria-label="Read Theory of Anticipation research">
+                <span>📖</span> Research & Insights
             </a>
         </div>
     </div>
@@ -121,37 +120,107 @@ author: "akalouis"
         </div>
     </div>
 
-    <!-- Latest Research Section -->
-    <div class="posts-section">
+    <!-- Research & Insights Section - REPLACED BLOG -->
+    <div class="research-section" id="research">
         <div class="section-header">
-            <h2>Latest Research</h2>
-            <p>Exploring the mathematics behind engagement and computational game design</p>
+            <h2>Research & Insights</h2>
+            <p>Deep dive into the mathematics behind computational game design</p>
         </div>
         
-        <div class="posts-grid">
-            {% for post in site.posts limit:3 %}
-            <article class="post-card">
-                <div class="post-card-header">
-                    <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-                    <span class="post-reading-time">{{ post.content | number_of_words | divided_by: 200 }} min read</span>
+        <div class="research-content">
+            <!-- Theory Foundation -->
+            <div class="theory-foundation">
+                <h3>🔬 Theoretical Foundation</h3>
+                <div class="foundation-grid">
+                    <div class="foundation-card">
+                        <h4>Game State Modeling</h4>
+                        <p>Every game is represented as a probabilistic graph where states (s) represent discrete game situations and transitions P(s → s') capture movement probabilities.</p>
+                    </div>
+                    
+                    <div class="foundation-card">
+                        <h4>Desire Quantification</h4>
+                        <p>Intrinsic Desire D_local serves as the "seed" value. Set win conditions to 1, loss to 0 — all other engagement values compute automatically.</p>
+                    </div>
+                    
+                    <div class="foundation-card">
+                        <h4>Anticipation Layers</h4>
+                        <p>Local Anticipation A₁(s) measures immediate engagement, while nested layers (A₂, A₃...) capture strategic depth and long-term player investment.</p>
+                    </div>
                 </div>
-                <h3 class="post-title">
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </h3>
-                <p class="post-excerpt">{{ post.description }}</p>
-                <div class="post-tags">
-                    {% if post.tags %}
-                        {% for tag in post.tags limit:3 %}
-                            <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    {% endif %}
+            </div>
+
+            <!-- Key Insights -->
+            <div class="insights-section">
+                <h3>💡 Key Research Insights</h3>
+                <div class="insights-list">
+                    <div class="insight-item">
+                        <div class="insight-number">1</div>
+                        <div class="insight-content">
+                            <h4>Engagement is Mathematically Quantifiable</h4>
+                            <p>By modeling uncertainty of meaningfulness, we can objectively measure what makes games engaging — moving beyond subjective playtesting to precise mathematical analysis.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="insight-item">
+                        <div class="insight-number">2</div>
+                        <div class="insight-content">
+                            <h4>Optimization Without Human Bias</h4>
+                            <p>Algorithmic optimization achieves demonstrable improvements (+51.7% in our demos) without designer input, proving mathematical frameworks can enhance creative intuition.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="insight-item">
+                        <div class="insight-number">3</div>
+                        <div class="insight-content">
+                            <h4>Universal Application Potential</h4>
+                            <p>The framework applies to any game representable as states and transitions — from simple mechanics to complex strategic systems.</p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-            {% endfor %}
-        </div>
-        
-        <div class="posts-cta">
-            <a href="/blog/" class="btn btn-outline">View All Research →</a>
+            </div>
+
+            <!-- Implementation Details -->
+            <div class="implementation-section">
+                <h3>⚙️ Implementation & Applications</h3>
+                <div class="implementation-grid">
+                    <div class="impl-card">
+                        <h4>🔧 C++17 Framework</h4>
+                        <p>Complete open-source implementation with efficient dynamic programming algorithms for real-time game analysis and optimization.</p>
+                        <a href="https://github.com/akalouis/anticipation-theory" class="impl-link">View Source Code →</a>
+                    </div>
+                    
+                    <div class="impl-card">
+                        <h4>📊 Design Scoring</h4>
+                        <p>Single objective score for entire game designs enables direct comparison and systematic optimization of different mechanical implementations.</p>
+                    </div>
+                    
+                    <div class="impl-card">
+                        <h4>🎮 Live Validation</h4>
+                        <p>Interactive browser demonstrations prove theoretical predictions with empirical player experience, bridging math and human psychology.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Future Directions -->
+            <div class="future-section">
+                <h3>🚀 Future Research Directions</h3>
+                <div class="future-content">
+                    <div class="future-item">
+                        <h4>Scalability to Complex Games</h4>
+                        <p>Extending ToA to handle larger state spaces, multiplayer dynamics, and real-time strategy games through approximation algorithms and sampling techniques.</p>
+                    </div>
+                    
+                    <div class="future-item">
+                        <h4>Player Personality Integration</h4>
+                        <p>Incorporating individual player preferences and personality types into the mathematical model for personalized engagement optimization.</p>
+                    </div>
+                    
+                    <div class="future-item">
+                        <h4>Industry Integration Tools</h4>
+                        <p>Developing practical tools for game studios to integrate ToA analysis into existing development pipelines and live service optimization.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -194,648 +263,13 @@ author: "akalouis"
                 <a href="https://github.com/akalouis/anticipation-theory" class="btn btn-primary">
                     <span>🚀</span> Try the Demos
                 </a>
-                <a href="/blog/" class="btn btn-secondary">
-                    <span>📚</span> Read the Research
+                <a href="https://doi.org/10.5281/zenodo.15826917" class="btn btn-secondary">
+                    <span>📄</span> Read the Paper
                 </a>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-/* Enhanced styles building on your original design */
-.hero-section {
-    text-align: center;
-    padding: 80px 0;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    margin: -48px -24px 64px -24px;
-    border-radius: 0 0 24px 24px;
-    position: relative;
-    overflow: hidden;
-}
-
-.hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 30% 70%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 70% 30%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
-    pointer-events: none;
-}
-
-.hero-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, rgba(0, 102, 204, 0.1) 0%, rgba(0, 102, 204, 0.15) 100%);
-    color: var(--color-accent);
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-family: var(--font-secondary);
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 24px;
-    border: 1px solid rgba(0, 102, 204, 0.2);
-    position: relative;
-    z-index: 1;
-}
-
-.hero-title {
-    font-family: var(--font-secondary);
-    font-size: 56px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    letter-spacing: -0.02em;
-    color: var(--color-primary);
-    position: relative;
-    z-index: 1;
-}
-
-.hero-subtitle {
-    font-size: 24px;
-    color: var(--color-secondary);
-    margin-bottom: 24px;
-    font-weight: 400;
-    position: relative;
-    z-index: 1;
-}
-
-.hero-description {
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--color-secondary);
-    max-width: 650px;
-    margin: 0 auto 40px auto;
-    position: relative;
-    z-index: 1;
-}
-
-.hero-actions {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
-}
-
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 14px 28px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: var(--font-secondary);
-    font-weight: 600;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.btn-primary {
-    background: linear-gradient(135deg, var(--color-accent) 0%, #0052a3 100%);
-    color: white;
-}
-
-.btn-primary:hover {
-    background: linear-gradient(135deg, #0052a3 0%, #003d7a 100%);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 102, 204, 0.3);
-}
-
-.btn-secondary {
-    background: linear-gradient(135deg, var(--color-primary) 0%, #333 100%);
-    color: white;
-}
-
-.btn-secondary:hover {
-    background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-}
-
-.btn-outline {
-    background: rgba(255, 255, 255, 0.9);
-    color: var(--color-primary);
-    border-color: var(--color-border);
-    backdrop-filter: blur(10px);
-}
-
-.btn-outline:hover {
-    border-color: var(--color-accent);
-    color: var(--color-accent);
-    transform: translateY(-3px);
-    background: white;
-}
-
-.what-is-section {
-    margin-bottom: 80px;
-}
-
-.section-header {
-    text-align: center;
-    margin-bottom: 48px;
-}
-
-.section-header h2 {
-    font-family: var(--font-secondary);
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: var(--color-primary);
-}
-
-.section-header p {
-    font-size: 18px;
-    color: var(--color-secondary);
-}
-
-.features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 32px;
-}
-
-.feature-card {
-    background: var(--color-background);
-    border: 2px solid var(--color-border);
-    border-radius: 16px;
-    padding: 36px;
-    text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.feature-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, transparent 0%, rgba(0, 102, 204, 0.02) 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-.feature-card:hover::before {
-    opacity: 1;
-}
-
-.feature-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.15);
-    border-color: var(--color-accent);
-}
-
-.feature-icon {
-    font-size: 48px;
-    margin-bottom: 24px;
-}
-
-.feature-card h3 {
-    font-family: var(--font-secondary);
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: var(--color-primary);
-}
-
-.feature-card p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--color-secondary);
-}
-
-.formula-section {
-    margin-bottom: 80px;
-}
-
-.formula-card {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 20px;
-    padding: 48px;
-    text-align: center;
-    border: 2px solid var(--color-border);
-    position: relative;
-    overflow: hidden;
-}
-
-.formula-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 50% 50%, rgba(0, 102, 204, 0.05) 0%, transparent 70%);
-    pointer-events: none;
-}
-
-.formula-card h3 {
-    font-family: var(--font-secondary);
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 24px;
-    color: var(--color-primary);
-    position: relative;
-    z-index: 1;
-}
-
-.formula {
-    font-family: 'Times New Roman', serif;
-    font-size: 32px;
-    color: var(--color-accent);
-    margin-bottom: 24px;
-    font-weight: 500;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 12px;
-    border: 1px solid rgba(0, 102, 204, 0.2);
-    position: relative;
-    z-index: 1;
-}
-
-.formula-explanation {
-    text-align: left;
-    max-width: 500px;
-    margin: 32px auto 0;
-    position: relative;
-    z-index: 1;
-}
-
-.formula-explanation h4 {
-    font-family: var(--font-secondary);
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    color: var(--color-primary);
-}
-
-.formula-explanation ul {
-    list-style: none;
-    padding: 0;
-}
-
-.formula-explanation li {
-    padding: 8px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.formula-explanation li:last-child {
-    border-bottom: none;
-}
-
-.proof-section {
-    margin-bottom: 80px;
-    text-align: center;
-}
-
-.proof-section h2 {
-    font-family: var(--font-secondary);
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: var(--color-primary);
-}
-
-.proof-intro {
-    font-size: 18px;
-    color: var(--color-secondary);
-    margin-bottom: 48px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.demo-comparison {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 32px;
-    margin-bottom: 48px;
-}
-
-.demo-card {
-    background: var(--color-background);
-    border: 2px solid var(--color-border);
-    border-radius: 16px;
-    padding: 32px;
-    text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.demo-card.featured {
-    border-color: var(--color-accent);
-    background: linear-gradient(135deg, rgba(0, 102, 204, 0.02) 0%, rgba(0, 102, 204, 0.05) 100%);
-}
-
-.demo-label {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    background: var(--color-secondary);
-    color: white;
-    padding: 4px 12px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.demo-label.optimized {
-    background: linear-gradient(135deg, var(--color-accent) 0%, #0052a3 100%);
-}
-
-.demo-card h3 {
-    font-family: var(--font-secondary);
-    font-size: 24px;
-    font-weight: 700;
-    margin: 24px 0 16px 0;
-    color: var(--color-primary);
-}
-
-.demo-score {
-    margin: 24px 0;
-    padding: 16px;
-    background: rgba(0,0,0,0.05);
-    border-radius: 8px;
-}
-
-.score-label {
-    display: block;
-    font-size: 12px;
-    color: var(--color-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 4px;
-}
-
-.score-value {
-    font-family: var(--font-secondary);
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--color-primary);
-}
-
-.score-value.highlight {
-    color: var(--color-accent);
-}
-
-.demo-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-}
-
-.proof-text {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    padding: 32px;
-    border-radius: 16px;
-    border: 1px solid var(--color-border);
-    text-align: left;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.proof-text p {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.proof-text p:last-child {
-    margin-bottom: 0;
-}
-
-.benefits-section {
-    margin-bottom: 80px;
-}
-
-.benefits-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 24px;
-}
-
-.benefit-item {
-    padding: 24px;
-    background: rgba(0, 102, 204, 0.02);
-    border-radius: 12px;
-    border: 1px solid rgba(0, 102, 204, 0.1);
-}
-
-.benefit-item h4 {
-    font-family: var(--font-secondary);
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    color: var(--color-primary);
-}
-
-.benefit-item p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--color-secondary);
-    margin: 0;
-}
-
-.posts-section {
-    margin-bottom: 80px;
-}
-
-.posts-grid {
-    display: grid;
-    gap: 32px;
-    margin-bottom: 48px;
-}
-
-.post-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-    font-family: var(--font-secondary);
-    font-size: 14px;
-    color: var(--color-secondary);
-}
-
-.post-title a {
-    color: var(--color-primary);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.post-title a:hover {
-    color: var(--color-accent);
-}
-
-.post-excerpt {
-    color: var(--color-secondary);
-    line-height: 1.6;
-    margin-bottom: 16px;
-}
-
-.post-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.tag {
-    display: inline-block;
-    background: #f2f2f2;
-    color: #6B6B6B;
-    padding: 6px 12px;
-    border-radius: 16px;
-    font-family: var(--font-secondary);
-    font-size: 12px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-
-.tag:hover {
-    background: #e8e8e8;
-    color: #2e3338;
-    text-decoration: none;
-}
-
-.posts-cta {
-    text-align: center;
-}
-
-.cta-section {
-    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
-    color: white;
-    padding: 64px 48px;
-    border-radius: 20px;
-    text-align: center;
-    margin-bottom: 80px;
-    position: relative;
-    overflow: hidden;
-}
-
-.cta-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 30% 70%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 70% 30%, rgba(0, 102, 204, 0.05) 0%, transparent 50%);
-    pointer-events: none;
-}
-
-.cta-content {
-    position: relative;
-    z-index: 1;
-}
-
-.cta-content h2 {
-    font-family: var(--font-secondary);
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
-.cta-content p {
-    font-size: 18px;
-    margin-bottom: 32px;
-    opacity: 0.9;
-}
-
-.cta-actions {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.cta-section .btn-primary {
-    background: linear-gradient(135deg, white 0%, #f0f0f0 100%);
-    color: var(--color-primary);
-    border-color: white;
-}
-
-.cta-section .btn-primary:hover {
-    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
-    transform: translateY(-3px);
-}
-
-.cta-section .btn-secondary {
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
-.cta-section .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
-    transform: translateY(-3px);
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-    .hero-section {
-        padding: 48px 24px;
-        margin: -48px -20px 48px -20px;
-    }
-    
-    .hero-title {
-        font-size: 36px;
-    }
-    
-    .hero-subtitle {
-        font-size: 20px;
-    }
-    
-    .hero-actions {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn {
-        width: 100%;
-        max-width: 300px;
-        justify-content: center;
-    }
-    
-    .features-grid, .demo-comparison, .benefits-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .formula-card {
-        padding: 32px 24px;
-    }
-    
-    .formula {
-        font-size: 24px;
-    }
-    
-    .cta-section {
-        padding: 48px 24px;
-    }
-    
-    .cta-actions {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .section-header h2 {
-        font-size: 28px;
-    }
-    
-    .proof-text {
-        padding: 24px;
-    }
-}
-</style>
 
 <!-- Structured Data for SEO -->
 <script type="application/ld+json">
